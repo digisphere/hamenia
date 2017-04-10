@@ -1,0 +1,163 @@
+
+#g1-preheader__switch {
+	display: none;
+}
+#g1-secondary-nav-menu {
+	padding: 2px 0;
+}
+// header
+
+#g1-primary-nav-menu,
+#g1-primary-nav {
+	float: none;
+	width: 100%;
+}
+#g1-primary-nav {
+	margin-right: auto;
+}
+#g1-header {
+	position: relative;
+	&:before {
+		content: "";
+		display: block;
+		position: absolute;
+		background-color: #002986;
+		right: 0; left: 0; bottom: 0;
+		height: 52px;
+	}
+}
+#g1-id {
+	float: none;
+}
+
+.g1-nav--unstyled #g1-primary-nav-menu > li > a:after {
+	display: none;
+}
+
+// slogan image
+#cnr-slogan-img {
+	text-indent: -9999px;
+	overflow: hidden;
+	height: 125px;
+	background: {
+		image: url('http://codenroll.pro/hamenia/wp-content/uploads/2016/05/hamenia-below-slider.jpg');
+		repeat: no-repeat;
+		size: cover;
+		position: center center;
+	}
+}
+
+// home page
+
+body.home #g1-content .g1-background {
+	background: {
+		image: url('../img/hamenia-bg.jpg');
+		position: center top;
+		repeat: no-repeat;
+	}
+}
+
+// cubes
+
+#hp-cube {
+	.inner {
+		padding: 10px 15px;
+		border-radius: 8px;
+		position: relative;
+		height: 144px;
+		margin-bottom: 15px;
+	}
+	&.hp-cube-gray .inner {
+		background-color: rgba(#6A6A69, 0.75);
+	}
+	&.hp-cube-idf .inner {
+		background-color: rgba(#99945C, 0.75);
+	}
+	&.hp-cube-green .inner {
+		background-color: rgba(#ADD036, 0.75);
+	}
+	&.hp-cube-blue .inner {
+		background-color: rgba(#0F29FF, 0.75);
+	}
+	&.hp-cube-orange .inner {
+		background-color: rgba(#F37520, 0.75);
+	}
+	&.hp-cube-sky .inner {
+		background-color: rgba(#66CDF5, 0.75);
+	}
+	
+	h3 {
+		font-size: 48px;
+		line-height: 0.75;
+		color: white;
+		span {
+			font-size: 28px;
+			display: block;
+		}
+	}
+	.hp-cube-icon {
+		position: absolute;
+		bottom: 15px; right: 15px;
+	}
+	.read-more {
+		position: absolute;
+		bottom: 15px; left: 15px;
+		color: #002986;
+		background-color: white;
+		border-radius: 18px;
+		padding: 0 12px;
+		font-size: 22px;
+	}
+}
+
+// slider
+
+#hp-slide1 {
+	color: #002986;
+	.lyr-1 {
+		position: relative;
+		top: -48px;
+		right: 74px;
+		font-size: 32px;
+	}
+	.lyr-2 {
+		position: relative;
+		//top: -36px;
+		//right: 20px;
+		font-size: 68px;
+	}
+	.lyr-3 {
+		position: relative;
+		//top: -36px;
+		//right: 20px;
+		font-size: 32px;
+	}
+}
+
+// devider
+
+.angle-devider {
+	margin-left: 0;
+	margin-right: 0;
+	width: 100%;
+	
+	.fa {
+		background-color: #002986;
+		color: white;
+		border-radius: 50%;
+		width: 32px; height: 32px;
+		padding: 0;
+		line-height: 32px;
+		color: white;
+	}
+	
+	span:before, span:after {
+		border-color: #002986;
+	}
+	span:before {
+		right: 150%;
+	}
+	span:after {
+		left: 150%;
+	}
+}

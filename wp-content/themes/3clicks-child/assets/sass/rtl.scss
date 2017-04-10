@@ -1,0 +1,83 @@
+
+// fonts
+
+@font-face {
+	font-family: 'fb';
+	src: url('../fonts/fb-regular-webfont.eot');
+	src: url('../fonts/fb-regular-webfont.eot?iefix') format('eot'),
+		 url('../fonts/fb-regular-webfont.ttf') format('ttf'),
+		 url('../fonts/fb-regular-webfont.woff') format('woff'),
+		 url('../fonts/fb-regular-webfont.svg#webfontXqjqfm2I') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+body {
+	font-family: 'fb';
+}
+
+// preheader
+
+#g1-secondary-nav-menu > li {
+    float: right;
+    margin-left: 1.25em;
+    margin-right: auto;
+}
+.g1-font-regular-s .g1-meta {
+	font-size: 16px;
+}
+#searchform .g1-form-actions,
+#searchsubmit {
+	right: auto;
+	left: 0;
+}
+#g1-secondary-nav-menu {
+	li.tel-link,
+	li.mail-link {
+		.fa {
+			float: left;
+			margin-right: 10px;
+			background-color: #7acef4;
+			border-radius: 50%;
+			color: #315262;
+			height: 28px;
+			width: 28px;
+			text-align: center;
+			line-height: 28px;
+		}
+		a {
+			line-height: 28px;
+		}
+	}
+}
+
+// logo
+#g1-id {
+	//float: right;
+}
+
+// navbar
+@media only screen and (min-width: 1025px) {
+	#g1-primary-nav-menu > .menu-item {
+	    float: right;
+	    margin-left: 23px;
+	    
+	    &:last-child {
+		    margin-left: 0;
+	    }
+	}
+	#g1-primary-nav-menu > .menu-item > a {
+		padding-right: 0;
+		
+	}
+}
+
+// grid
+
+.g1-grid > .g1-column {
+	margin-left: auto;
+	margin-right: 2.89256198%;
+}
+.g1-grid > .g1-column:first-child {
+	margin-left: auto;
+	margin-right: 0;
+}

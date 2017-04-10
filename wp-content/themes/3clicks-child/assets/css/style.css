@@ -1,0 +1,178 @@
+/* line 2, ../sass/style.scss */
+#g1-preheader__switch {
+  display: none;
+}
+
+/* line 5, ../sass/style.scss */
+#g1-secondary-nav-menu {
+  padding: 2px 0;
+}
+
+/* line 10, ../sass/style.scss */
+#g1-primary-nav-menu,
+#g1-primary-nav {
+  float: none;
+  width: 100%;
+}
+
+/* line 15, ../sass/style.scss */
+#g1-primary-nav {
+  margin-right: auto;
+}
+
+/* line 18, ../sass/style.scss */
+#g1-header {
+  position: relative;
+}
+/* line 20, ../sass/style.scss */
+#g1-header:before {
+  content: "";
+  display: block;
+  position: absolute;
+  background-color: #002986;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  height: 52px;
+}
+
+/* line 29, ../sass/style.scss */
+#g1-id {
+  float: none;
+}
+
+/* line 33, ../sass/style.scss */
+.g1-nav--unstyled #g1-primary-nav-menu > li > a:after {
+  display: none;
+}
+
+/* line 38, ../sass/style.scss */
+#cnr-slogan-img {
+  text-indent: -9999px;
+  overflow: hidden;
+  height: 125px;
+  background-image: url("http://codenroll.pro/hamenia/wp-content/uploads/2016/05/hamenia-below-slider.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+/* line 52, ../sass/style.scss */
+body.home #g1-content .g1-background {
+  background-image: url("../img/hamenia-bg.jpg");
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+/* line 63, ../sass/style.scss */
+#hp-cube .inner {
+  padding: 10px 15px;
+  border-radius: 8px;
+  position: relative;
+  height: 144px;
+  margin-bottom: 15px;
+}
+/* line 70, ../sass/style.scss */
+#hp-cube.hp-cube-gray .inner {
+  background-color: rgba(106, 106, 105, 0.75);
+}
+/* line 73, ../sass/style.scss */
+#hp-cube.hp-cube-idf .inner {
+  background-color: rgba(153, 148, 92, 0.75);
+}
+/* line 76, ../sass/style.scss */
+#hp-cube.hp-cube-green .inner {
+  background-color: rgba(173, 208, 54, 0.75);
+}
+/* line 79, ../sass/style.scss */
+#hp-cube.hp-cube-blue .inner {
+  background-color: rgba(15, 41, 255, 0.75);
+}
+/* line 82, ../sass/style.scss */
+#hp-cube.hp-cube-orange .inner {
+  background-color: rgba(243, 117, 32, 0.75);
+}
+/* line 85, ../sass/style.scss */
+#hp-cube.hp-cube-sky .inner {
+  background-color: rgba(102, 205, 245, 0.75);
+}
+/* line 89, ../sass/style.scss */
+#hp-cube h3 {
+  font-size: 48px;
+  line-height: 0.75;
+  color: white;
+}
+/* line 93, ../sass/style.scss */
+#hp-cube h3 span {
+  font-size: 28px;
+  display: block;
+}
+/* line 98, ../sass/style.scss */
+#hp-cube .hp-cube-icon {
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+}
+/* line 102, ../sass/style.scss */
+#hp-cube .read-more {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  color: #002986;
+  background-color: white;
+  border-radius: 18px;
+  padding: 0 12px;
+  font-size: 22px;
+}
+
+/* line 115, ../sass/style.scss */
+#hp-slide1 {
+  color: #002986;
+}
+/* line 117, ../sass/style.scss */
+#hp-slide1 .lyr-1 {
+  position: relative;
+  top: -48px;
+  right: 74px;
+  font-size: 32px;
+}
+/* line 123, ../sass/style.scss */
+#hp-slide1 .lyr-2 {
+  position: relative;
+  font-size: 68px;
+}
+/* line 129, ../sass/style.scss */
+#hp-slide1 .lyr-3 {
+  position: relative;
+  font-size: 32px;
+}
+
+/* line 139, ../sass/style.scss */
+.angle-devider {
+  margin-left: 0;
+  margin-right: 0;
+  width: 100%;
+}
+/* line 144, ../sass/style.scss */
+.angle-devider .fa {
+  background-color: #002986;
+  color: white;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  line-height: 32px;
+  color: white;
+}
+/* line 154, ../sass/style.scss */
+.angle-devider span:before, .angle-devider span:after {
+  border-color: #002986;
+}
+/* line 157, ../sass/style.scss */
+.angle-devider span:before {
+  right: 150%;
+}
+/* line 160, ../sass/style.scss */
+.angle-devider span:after {
+  left: 150%;
+}

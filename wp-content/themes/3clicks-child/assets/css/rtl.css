@@ -1,0 +1,77 @@
+@font-face {
+  font-family: 'fb';
+  src: url("../fonts/fb-regular-webfont.eot");
+  src: url("../fonts/fb-regular-webfont.eot?iefix") format("eot"), url("../fonts/fb-regular-webfont.ttf") format("ttf"), url("../fonts/fb-regular-webfont.woff") format("woff"), url("../fonts/fb-regular-webfont.svg#webfontXqjqfm2I") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+/* line 14, ../sass/rtl.scss */
+body {
+  font-family: 'fb';
+}
+
+/* line 20, ../sass/rtl.scss */
+#g1-secondary-nav-menu > li {
+  float: right;
+  margin-left: 1.25em;
+  margin-right: auto;
+}
+
+/* line 25, ../sass/rtl.scss */
+.g1-font-regular-s .g1-meta {
+  font-size: 16px;
+}
+
+/* line 28, ../sass/rtl.scss */
+#searchform .g1-form-actions,
+#searchsubmit {
+  right: auto;
+  left: 0;
+}
+
+/* line 36, ../sass/rtl.scss */
+#g1-secondary-nav-menu li.tel-link .fa,
+#g1-secondary-nav-menu li.mail-link .fa {
+  float: left;
+  margin-right: 10px;
+  background-color: #7acef4;
+  border-radius: 50%;
+  color: #315262;
+  height: 28px;
+  width: 28px;
+  text-align: center;
+  line-height: 28px;
+}
+/* line 47, ../sass/rtl.scss */
+#g1-secondary-nav-menu li.tel-link a,
+#g1-secondary-nav-menu li.mail-link a {
+  line-height: 28px;
+}
+
+@media only screen and (min-width: 1025px) {
+  /* line 60, ../sass/rtl.scss */
+  #g1-primary-nav-menu > .menu-item {
+    float: right;
+    margin-left: 23px;
+  }
+  /* line 64, ../sass/rtl.scss */
+  #g1-primary-nav-menu > .menu-item:last-child {
+    margin-left: 0;
+  }
+
+  /* line 68, ../sass/rtl.scss */
+  #g1-primary-nav-menu > .menu-item > a {
+    padding-right: 0;
+  }
+}
+/* line 76, ../sass/rtl.scss */
+.g1-grid > .g1-column {
+  margin-left: auto;
+  margin-right: 2.89256198%;
+}
+
+/* line 80, ../sass/rtl.scss */
+.g1-grid > .g1-column:first-child {
+  margin-left: auto;
+  margin-right: 0;
+}

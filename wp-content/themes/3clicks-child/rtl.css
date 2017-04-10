@@ -1,0 +1,32 @@
+@import 'assets/css/rtl.css';
+
+body {
+	direction: rtl;
+	font-size: 16px;
+}
+.lead {
+	font-size: 20px;
+}
+.g1-nav-breadcrumbs__item {
+	float: right;
+	margin-left: 0.5em;
+	margin-right: auto;
+	margin-top: 10px;
+}
+.g1-nav-breadcrumbs__item + .g1-nav-breadcrumbs__item:before {
+	content: "\f104";
+	margin-left: 0.5em;
+	margin-right: auto;
+}
+.g1-list--icon  a {
+  padding-right: 30px;
+font-size: 20px;
+}
+
+.loop-products .item {
+	float: right;
+}
+
+ul, ol {
+	margin-right: 30px;
+}

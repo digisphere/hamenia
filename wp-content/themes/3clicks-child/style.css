@@ -1,0 +1,107 @@
+/*
+ Theme Name:   3clicks Theme Child
+ Theme URI:    http://3clicks.bringthepixel.com
+ Description:  3Clicks Child Theme for Hamenia
+ Author:       Amit Moreno
+ Author URI:   http://amitmoreno.com
+ Template:     3clicks
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Text Domain:  cnr
+*/
+
+@import 'assets/css/style.css';
+
+* {
+	box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+#g1-primary-nav .g1-cartbox {
+  display: none !important;
+}
+.g1-box {
+	overflow: visible;
+	margin-top: 60px;
+}
+.g1-box .g1-box__inner {
+	border-color: #acacac;
+}
+.g1-box img {
+	margin-top: -55px;
+}
+
+.g1-font-regular-s .entry-footer,
+.g1-font-regular-s .g1-meta {
+	display: none;
+}
+
+.loop-products .item {
+	float: left;
+	width: 25%;
+	text-align: center;
+	padding: 5px;
+	
+}
+.loop-products .item .inner {
+	border: 2px solid #002986;
+	padding: 10px;
+	background: white;
+}
+.loop-products .item img {
+	max-width: 100%;
+	height: auto;
+}
+.loop-products .item .inner h2 {
+	color: #002986;
+}
+
+.btn,
+.g1-content a.btn {
+	background: #002986;
+	color: white;
+	padding: 5px 25px;
+	font-size: 15px;
+}
+.g1-header #g1-primary-nav-switch {
+	background-color: #002986;
+}
+@media (max-width: 1200px) {
+	#cnr-slogan-img {
+		height: 90px;
+	}
+}
+@media (max-width: 1024px) {
+	#g1-header:before {
+		display: none;
+	}
+}
+@media (max-width: 768px) {
+	.loop-products .item {
+		width: 50%;
+		
+	}
+	#cnr-slogan-img {
+		height: 66px;
+	}
+	
+}
+
+@media (max-width: 768px) {
+	#cnr-slogan-img {
+		height: 52px;
+	}
+}
+
+@media (max-width: 481px) {
+	.loop-products .item {
+		width: 100%;
+		
+	}
+	#cnr-slogan-img {
+		height: 36px;
+	}
+}
