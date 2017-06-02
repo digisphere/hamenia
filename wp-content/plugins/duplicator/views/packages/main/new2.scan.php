@@ -103,9 +103,11 @@ TOOL BAR: STEPS -->
 <div id="dup-progress-area">
 	<!--  PROGRESS BAR -->
 	<div id="dup-progress-bar-area">
-		<div class="dup-progress-title"><i class="fa fa-spinner fa-spin"></i> <?php _e('Scanning Site', 'duplicator'); ?></div>
+		<div class="dup-progress-title"><i class="fa fa-circle-o-notch fa-spin"></i> <?php _e('Scanning Site', 'duplicator'); ?></div>
 		<div id="dup-progress-bar"></div>
-		<b><?php _e('Please Wait...', 'duplicator'); ?></b>
+		<b><?php _e('Please Wait...', 'duplicator'); ?></b><br/><br/>
+		<i><?php _e('Keep this window open during the scan process.', 'duplicator'); ?></i><br/>
+		<i><?php _e('This can take several minutes.', 'duplicator'); ?></i><br/>
 	</div>
 
 	<!--  SUCCESS MESSAGE -->
@@ -178,7 +180,7 @@ TOOL BAR: STEPS -->
 					echo '</small>';
 					
 					//MAX_EXECUTION_TIME
-					$test = (set_time_limit(0)) ? 0 : ini_get("max_execution_time");
+					$test = (@set_time_limit(0)) ? 0 : ini_get("max_execution_time");
 					echo '<hr size="1" /><span id="data-srv-php-maxtime"></span>&nbsp;<b>' . __('Max Execution Time', 'duplicator') . ":</b>&nbsp; '{$test}' <br/>";
 					echo '<small>';
 					printf(__('Issues might occur for larger packages when the [max_execution_time] value in the php.ini is too low.  The minimum recommended timeout is "%1$s" seconds or higher. An attempt is made to override this value if the server allows it.  A value of 0 (recommended) indicates that PHP has no time limits.', 'duplicator'), DUPLICATOR_SCAN_TIMEOUT);
@@ -267,8 +269,10 @@ TOOL BAR: STEPS -->
 					data-tooltip="<?php _e('The files size represents only the included files before compression is applied. It does not include the size of the database script and in most cases the package size once completed will be smaller than this number.', 'duplicator'); ?>"></i>
 				<div id="data-arc-size1"></div>
 				<div class="dup-scan-filter-status">
-					<?php 
-						if ($Package->Archive->FilterOn) {
+					<?php
+						if ($Package->Archive->ExportOnlyDB) {
+							echo '<i class="fa fa-filter"></i> '; _e('Database Only', 'duplicator');
+						}elseif ($Package->Archive->FilterOn) {
 							echo '<i class="fa fa-filter"></i> '; _e('Enabled', 'duplicator');
 						} 
 					?> 
@@ -543,7 +547,7 @@ TOOL BAR: STEPS -->
 </div>
 </form>
 
-<script type="text/javascript">
+<script>
 jQuery(document).ready(function($) {
 		
 	/*	Performs Ajax post to create check system  */

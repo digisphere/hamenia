@@ -1,30 +1,24 @@
-/* line 2, ../sass/style.scss */
 #g1-preheader__switch {
   display: none;
 }
-
-/* line 5, ../sass/style.scss */
 #g1-secondary-nav-menu {
   padding: 2px 0;
 }
-
-/* line 10, ../sass/style.scss */
 #g1-primary-nav-menu,
 #g1-primary-nav {
   float: none;
   width: 100%;
 }
 
-/* line 15, ../sass/style.scss */
 #g1-primary-nav {
   margin-right: auto;
 }
 
-/* line 18, ../sass/style.scss */
+.g1-meta.entry-terms { display: none !important; }
+
 #g1-header {
   position: relative;
 }
-/* line 20, ../sass/style.scss */
 #g1-header:before {
   content: "";
   display: block;
@@ -35,18 +29,13 @@
   bottom: 0;
   height: 52px;
 }
-
-/* line 29, ../sass/style.scss */
 #g1-id {
   float: none;
 }
 
-/* line 33, ../sass/style.scss */
 .g1-nav--unstyled #g1-primary-nav-menu > li > a:after {
   display: none;
 }
-
-/* line 38, ../sass/style.scss */
 #cnr-slogan-img {
   text-indent: -9999px;
   overflow: hidden;
@@ -56,15 +45,11 @@
   background-size: cover;
   background-position: center center;
 }
-
-/* line 52, ../sass/style.scss */
 body.home #g1-content .g1-background {
   background-image: url("../img/hamenia-bg.jpg");
   background-position: center top;
   background-repeat: no-repeat;
 }
-
-/* line 63, ../sass/style.scss */
 #hp-cube .inner {
   padding: 10px 15px;
   border-radius: 8px;
@@ -72,7 +57,6 @@ body.home #g1-content .g1-background {
   height: 144px;
   margin-bottom: 15px;
 }
-/* line 70, ../sass/style.scss */
 #hp-cube.hp-cube-gray .inner {
   background-color: rgba(106, 106, 105, 0.75);
 }
@@ -88,7 +72,6 @@ body.home #g1-content .g1-background {
 #hp-cube.hp-cube-blue .inner {
   background-color: rgba(15, 41, 255, 0.75);
 }
-/* line 82, ../sass/style.scss */
 #hp-cube.hp-cube-orange .inner {
   background-color: rgba(243, 117, 32, 0.75);
 }
@@ -96,9 +79,8 @@ body.home #g1-content .g1-background {
 #hp-cube.hp-cube-sky .inner {
   background-color: rgba(102, 205, 245, 0.75);
 }
-/* line 89, ../sass/style.scss */
 #hp-cube h3 {
-  font-size: 48px;
+  font-size: 36px;
   line-height: 0.75;
   color: white;
 }

@@ -5,4 +5,5 @@ jQuery(document).ready(function($){
 		var html = $(this).html();
 		$(this).html(html.replace('משאבות', '<span>משאבות</span>'));
 	});
+	$("#g1-primary-nav-switch").text('תפריט ניווט');
 });

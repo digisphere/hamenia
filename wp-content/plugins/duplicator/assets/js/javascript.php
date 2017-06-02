@@ -1,4 +1,4 @@
-<script type="text/javascript">
+<script>
 /* DESCRIPTION: Methods and Objects in this file are global and common in 
  * nature use this file to place all shared methods and varibles */	
 
@@ -104,6 +104,22 @@ Duplicator.UI.ToggleMetaBox = function()
 		? $arrow.removeClass().addClass('fa fa-caret-up') 
 		: $arrow.removeClass().addClass('fa fa-caret-down');
 	
+}
+
+Duplicator.UI.readonly = function(item)
+{
+	jQuery(item).attr('readonly', 'true').css({color:'#999'});
+}
+
+Duplicator.UI.disable = function(item)
+{
+	jQuery(item).attr('disabled', 'true').css({color:'#999'});
+}
+
+Duplicator.UI.enable = function(item)
+{
+	jQuery(item).removeAttr('disabled').css({color:'#000'});
+	jQuery(item).removeAttr('readonly').css({color:'#000'});
 }
 
 //Init

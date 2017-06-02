@@ -1,11 +1,68 @@
 @import 'assets/css/rtl.css';
 
+@import url('https://fonts.googleapis.com/css?family=Assistant:300,400,600,700,800&subset=hebrew');
+
 body {
 	direction: rtl;
 	font-size: 16px;
 }
+body,
+#g1-primary-nav-menu > li > a > .g1-nav-item__title, #g1-header .g1-searchbox__switch, #g1-header .g1-cartbox__switch,
+h1, .g1-h1, h2, .g1-h2, h3, .g1-h3, .g1-button--big, .g1-numbers__title, .g1-searchbox input, .g1-nav--collapsed #g1-primary-nav-menu .g1-type-tile .g1-submenus .g1-nav-item__title {
+        font-family: 'Assistant', sans-serif;
+}
+body {
+  font-size: 18px;
+}
+.g1-content h1,
+.g1-content a {
+  color: #002986;
+}
+.g1-content mark, .g1-content input[type=button]:hover, .g1-content input[type=submit]:hover, .g1-content button:hover, .g1-content .g1-button:hover, .g1-content a.button:hover, .g1-content .g1-simple-slider .g1-fullscreen > a:hover,
+
+.g1-content .g1-divider--simple:before, .g1-content .g1-tabs--button .g1-tabs-nav-current-item .g1-tab-title, .g1-content .gallery-icon > a:before, .g1-content .g1-collection--gallery article:before, .g1-content .g1-collection--gallery .g1-nonmedia > .g1-01, .g1-content .g1-dropcap--solid, .g1-content input[type=button], .g1-content input[type=submit], .g1-content button, .g1-content .g1-button--solid, .g1-content a.button, .g1-content .g1-frame--solid > .g1-decorator, .g1-content .g1-toggle--solid .g1-toggle__switch, .g1-content .g1-indicator:before, .g1-content .g1-progress-bar--solid .g1-progress-bar__bar, .g1-content .g1-progress-circle .g1-color-scheme, .g1-content .g1-countdown i, .g1-content .g1-box--solid .g1-box__icon, .g1-content .g1-banda__handle span, .g1-content .g1-banda--smooth .g1-banda__handle, .g1-content .g1-isotope-filter--current:before, .g1-content .g1-simple-slider .g1-progress > div > div, .g1-content .g1-simple-slider.g1-nav-coin-thumbs .g1-nav-coin .g1-selected a:before, .g1-content .g1-simple-slider .g1-nav-direction__prev, .g1-content .g1-simple-slider .g1-nav-direction__next, .g1-content .g1-mediabox--slider .g1-nav-coin a:before, .g1-content .g1-searchbox .g1-outer, .g1-content .g1-gmap-wrapper .g1-pan-control, .g1-content .g1-gmap-wrapper .g1-full-map-control, .g1-content #wp-calendar #prev a, .g1-content #wp-calendar #next a, .g1-content .g1-nav--mobile #g1-secondary-nav-menu > li, .g1-content #lang_sel ul ul li, .g1-content #g1-primary-nav-switch, .g1-content .widget_price_filter .ui-slider .ui-slider-range {
+  background-color: #002986;
+}
+.g1-content input[type=button]:hover, .g1-content input[type=submit]:hover, .g1-content button:hover, .g1-content .g1-button:hover, .g1-content a.button:hover, .g1-content .g1-simple-slider .g1-fullscreen > a:hover,
+
+.g1-content input[type=button], .g1-content input[type=submit], .g1-content button, .g1-content .g1-button--solid, .g1-content a.button, .g1-content .g1-frame--solid > .g1-decorator, .g1-content .g1-progress-bar--solid .g1-progress-bar__bar, .g1-content .g1-toggle--solid .g1-toggle__switch, .g1-content .g1-tabs--simple .g1-tabs-nav-current-item .g1-tab-title:before, .g1-content .g1-tabs--button .g1-tabs-nav-current-item .g1-tab-title, .g1-content .g1-tabs--button .g1-tabs-nav-current-item .g1-tab-title:after, .g1-content .g1-box--solid .g1-box__icon, .g1-content .author-info:before, .g1-content .g1-related-entries:before, .g1-content .g1-replies:before, .g1-content #respond:before, .g1-content .upsells:before, .g1-content .related:before, .g1-content #secondary .widget + .widget:before, .g1-content #g1-primary-nav-switch, .g1-content .widget_price_filter .ui-slider-handle {
+  border-color: #002986;
+}
+.g1-content h1 {
+  font-weight: 600;
+}
+#g1-primary-nav-menu > li > a > .g1-nav-item__title {
+  font-size: 20px;
+  font-weight: 600;
+}
 .lead {
 	font-size: 20px;
+}
+
+.about-icon-list {
+  display: flex;
+  text-align: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.about-icon-list li {
+  flex-grow: 1;
+  width: 25%;
+}
+.about-icon-list .thumb img {
+  max-width: 90px;
+  height: auto;
+  margin-bottom: 15px;
+}
+.about-icon-list .content {
+  color: #002986;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 5px 15px;
+}
+.g1-collection--simple .g1-nonmedia {
+  padding: 0;
 }
 .g1-nav-breadcrumbs__item {
 	float: right;
@@ -22,11 +79,22 @@ body {
   padding-right: 30px;
 font-size: 20px;
 }
-
 .loop-products .item {
 	float: right;
 }
-
 ul, ol {
 	margin-right: 30px;
+}
+#acp-toolbar-wrap.style-2 .acp-toggle-toolbar, #acp-toolbar-wrap.style-2 right .acp-toggle-toolbar {
+    right: auto;
+    left: 30px;
+}
+#acp-toolbar-wrap.style-2 .acp-toolbar, #acp-toolbar-wrap.style-2 right .acp-toolbar {
+    right: auto;
+    left: 15px;
+}
+
+body.tax-product_cat.g1-secondary-narrow #primary {
+	width: 100%;
+	float: none;
 }

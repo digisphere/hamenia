@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: 3clicks v3.2.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-12-20 13:41+0100\n"
-"PO-Revision-Date: 2016-05-15 17:54+0300\n"
+"PO-Revision-Date: 2017-04-11 10:22+0300\n"
 "Last-Translator: Luke\n"
 "Language-Team: bringthepixel <bringthepixel@gmail.com>\n"
 "Language: en\n"
@@ -1280,7 +1280,7 @@ msgstr ""
 
 #: 3clicks/lib/g1-pages/lib/functions.php:109
 msgid "Home Page"
-msgstr ""
+msgstr "‎דף הבית"
 
 #: 3clicks/lib/g1-pages/lib/functions.php:110
 msgid "If you want to set the Blog Page as the Home Page, leave this option blank or select the Blog Page."
@@ -2538,7 +2538,7 @@ msgstr ""
 
 #: 3clicks/g1-framework/lib/template-tags.php:121
 msgid "Home"
-msgstr ""
+msgstr "‎ראשי"
 
 #: 3clicks/g1-framework/lib/template-tags.php:248
 #, php-format
@@ -2619,7 +2619,7 @@ msgstr ""
 
 #: 3clicks/g1-framework/lib/core-tools.php:1497
 msgid "More"
-msgstr ""
+msgstr "‎קרא עוד"
 
 #: 3clicks/g1-framework/lib/core-tools.php:1555
 #: 3clicks/g1-framework/lib/core-tools.php:1556

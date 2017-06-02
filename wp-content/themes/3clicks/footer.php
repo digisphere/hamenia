@@ -1,14 +1,4 @@
 <?php
-/**
- * The Template Part for displaying the footer.
- *
- * For the full license information, please view the Licensing folder
- * that was distributed with this source code.
- *
- * @package G1_Framework
- * @subpackage G1_Theme03
- * @since G1_Theme03 1.0.0
- */
 
 // Prevent direct script access
 if ( !defined('ABSPATH') )
@@ -86,7 +76,7 @@ if ( !defined('ABSPATH') )
                         }
                      ?>
                 </nav>
-                <p id="g1-footer-text"><?php echo g1_get_theme_option( 'general', 'footer_text', '' ); ?></p>
+                <p id="g1-footer-text"><?php echo g1_get_theme_option( 'general', 'footer_text', '' ); ?> <a href="http://amitmoreno.com/" target="_blank" aria-label="עבור לאתר של עמית מורנו בכרטיסיה חדשה" style="color:white;">בניית אתרים</a></p>
             </div>
             <!-- END #g1-footer-area -->
 
@@ -97,7 +87,7 @@ if ( !defined('ABSPATH') )
                  */
                 do_action( 'g1_footer_end' );
             ?>
-
+		
         <?php get_template_part( 'template-parts/g1_background', 'footer' ); ?>
 	</footer>
 	<!-- END #g1-footer -->
@@ -113,6 +103,7 @@ if ( !defined('ABSPATH') )
 		 */	
 		do_action( 'g1_footer_after' );
 	?>
+
 </div>
 <!-- END #page -->
 <?php wp_footer(); ?>

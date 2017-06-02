@@ -23,12 +23,12 @@ $default_name = DUP_Package::getDefaultName();
 
 //View State
 $ctrl_ui = new DUP_CTRL_UI();
-$ctrl_ui->SetResponseType('PHP');
+$ctrl_ui->setResponseType('PHP');
 $data = $ctrl_ui->GetViewStateList();
 
-$ui_css_storage = (isset($data->Payload['dup-pack-storage-panel']) && $data->Payload['dup-pack-storage-panel']) ? 'display:block' : 'display:none';
-$ui_css_archive = (isset($data->Payload['dup-pack-archive-panel']) && $data->Payload['dup-pack-archive-panel']) ? 'display:block' : 'display:none';
-$ui_css_installer = (isset($data->Payload['dup-pack-installer-panel']) && $data->Payload['dup-pack-installer-panel']) ? 'display:block' : 'display:none';
+$ui_css_storage = (isset($data->payload['dup-pack-storage-panel']) && $data->payload['dup-pack-storage-panel']) ? 'display:block' : 'display:none';
+$ui_css_archive = (isset($data->payload['dup-pack-archive-panel']) && $data->payload['dup-pack-archive-panel']) ? 'display:block' : 'display:none';
+$ui_css_installer = (isset($data->payload['dup-pack-installer-panel']) && $data->payload['dup-pack-installer-panel']) ? 'display:block' : 'display:none';
 $dup_intaller_files = implode(", ", array_keys(DUP_Server::getInstallerFiles()));
 $dbbuild_mode = (DUP_Settings::Get('package_mysqldump') && DUP_DB::getMySqlDumpPath()) ? 'mysqldump' : 'PHP';
 
@@ -196,8 +196,9 @@ SYSTEM REQUIREMENTS -->
                         $duplicator_nonce = wp_create_nonce('duplicator_cleanup_page');
                     ?> 
                     <form method="post" action="admin.php?page=duplicator-tools&tab=cleanup&action=installer&_wpnonce=<?php echo $duplicator_nonce; ?>">
-                    <?php _e("A reserved file(s) was found in the WordPress root directory. Reserved file names are [{$dup_intaller_files}].  To archive your data correctly please remove any of these files from your WordPress root directory.  Then try creating your package again.", 'duplicator'); ?>
-                        <br/><input type='submit' class='button action' value='<?php _e('Remove Files Now', 'duplicator') ?>' style='font-size:10px; margin-top:5px;' />
+						<b><?php _e('WordPress Root Path:', 'duplicator'); ?></b>  <?php echo DUPLICATOR_WPROOTPATH; ?><br/>
+						<?php _e("A reserved file(s) was found in the WordPress root directory. Reserved file names include [{$dup_intaller_files}].  To archive your data correctly please remove any of these files from your WordPress root directory.  Then try creating your package again.", 'duplicator'); ?>
+                        <br/><input type='submit' class='button button-small' value='<?php _e('Remove Files Now', 'duplicator') ?>' style='font-size:10px; margin-top:5px;' />
                     </form>
 				<?php endif; ?>
             </div>
@@ -220,7 +221,7 @@ FORM PACKAGE OPTIONS -->
 	<?php include('new1.inc.form.php'); ?>
 </div>
 
-<script type="text/javascript">
+<script>
 jQuery(document).ready(function ($) 
 {
 	//Init: Toogle for system requirment detial links

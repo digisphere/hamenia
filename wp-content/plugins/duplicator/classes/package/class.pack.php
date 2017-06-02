@@ -1,7 +1,7 @@
 <?php
 if (!defined('DUPLICATOR_VERSION')) exit; // Exit if accessed directly
 
-require_once (DUPLICATOR_PLUGIN_PATH.'classes/utilities/class.util.php');
+require_once (DUPLICATOR_PLUGIN_PATH.'classes/utilities/class.u.php');
 require_once (DUPLICATOR_PLUGIN_PATH.'classes/package/class.pack.archive.php');
 require_once (DUPLICATOR_PLUGIN_PATH.'classes/package/class.pack.installer.php');
 require_once (DUPLICATOR_PLUGIN_PATH.'classes/package/class.pack.database.php');
@@ -104,7 +104,7 @@ class DUP_Package
         $report['SRV'] = $srv['SRV'];
 
         //FILES
-        $this->Archive->getScanData();
+        $this->Archive->buildScanStats();
         $dirCount  = count($this->Archive->Dirs);
         $fileCount = count($this->Archive->Files);
         $fullCount = $dirCount + $fileCount;
@@ -325,6 +325,7 @@ class DUP_Package
             $this->Archive->PackDir         = rtrim(DUPLICATOR_WPROOTPATH, '/');
             $this->Archive->Format          = 'ZIP';
             $this->Archive->FilterOn        = isset($post['filter-on']) ? 1 : 0;
+			$this->Archive->ExportOnlyDB    = isset($post['export-onlydb']) ? 1 : 0;
             $this->Archive->FilterDirs      = esc_html($filter_dirs);
             $this->Archive->FilterExts      = str_replace(array('.', ' '), "", esc_html($filter_exts));
             //INSTALLER
@@ -413,12 +414,21 @@ class DUP_Package
 
     /**
      *  Makes the hashkey for the package files
+	 *  Rare cases will need to fall back to GUID
      *
      *  @return string  Returns a unique hashkey
      */
     public function makeHash()
     {
-        return uniqid().mt_rand(1000, 9999).date("ymdHis");
+		try {
+			if (function_exists('random_bytes') && DUP_Util::$on_php_53_plus) {
+				return bin2hex(random_bytes(8)).mt_rand(1000, 9999).date("ymdHis");
+			} else {
+				return DUP_Util::GUIDv4();
+			}
+		} catch (Exception $exc) {
+			return DUP_Util::GUIDv4();
+		}
     }
 
     /**
@@ -440,6 +450,7 @@ class DUP_Package
         }
         //Incase unserilaize fails
         $obj = (is_object($obj)) ? $obj : new DUP_Package();
+	
         return $obj;
     }
 
@@ -494,7 +505,7 @@ class DUP_Package
         if ($all) {
             $dir = DUPLICATOR_SSDIR_PATH_TMP."/*";
             foreach (glob($dir) as $file) {
-                unlink($file);
+                @unlink($file);
             }
         }
         //Remove scan files that are 24 hours old
@@ -502,7 +513,7 @@ class DUP_Package
             $dir = DUPLICATOR_SSDIR_PATH_TMP."/*_scan.json";
             foreach (glob($dir) as $file) {
                 if (filemtime($file) <= time() - 86400) {
-                    unlink($file);
+                    @unlink($file);
                 }
             }
         }
@@ -573,7 +584,7 @@ class DUP_Package
                 $name = basename($file);
                 if (strstr($name, $this->NameHash)) {
                     copy($file, "{$newPath}/{$name}");
-                    unlink($file);
+                    @unlink($file);
                 }
             }
         }

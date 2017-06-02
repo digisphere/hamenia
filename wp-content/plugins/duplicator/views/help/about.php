@@ -40,9 +40,9 @@ require_once(DUPLICATOR_PLUGIN_PATH . '/views/inc.header.php');
 	div#mce-responses {margin: auto; padding: 10px; width:500px}
 </style>
 
-<script type="text/javascript">var switchTo5x = true;</script>
+<script>var switchTo5x = true;</script>
 <script type="text/javascript" src="https://ws.sharethis.com/button/buttons.js"></script>
-<script type="text/javascript">stLight.options({publisher: "1a44d92e-2a78-42c3-a32e-414f78f9f484"});</script> 
+<script>stLight.options({publisher: "1a44d92e-2a78-42c3-a32e-414f78f9f484"});</script> 
 
 <div class="wrap dup-wrap dup-support-all">
 	
@@ -63,12 +63,6 @@ require_once(DUPLICATOR_PLUGIN_PATH . '/views/inc.header.php');
             </tr>
         </table><br/>
 
-
-        <!--  ==================================================
-        SUPPORT DUPLICATOR
-        ==================================================== -->
-        <h2><?php _e('Support Duplicator', 'duplicator') ?></h2>
-
         <!-- PARTNER WITH US -->
         <div class="dup-support-give-area">
             <table class="dup-support-hlp-hdrs">
@@ -81,9 +75,9 @@ require_once(DUPLICATOR_PLUGIN_PATH . '/views/inc.header.php');
             <table style="text-align: center;width:100%; font-size:11px; font-style:italic; margin-top:25px">
                 <tr>
                     <td valign="top">
-                        <a href="http://wordpress.org/extend/plugins/duplicator" target="_blank"><img id="dup-img-5stars" src="<?php echo DUPLICATOR_PLUGIN_URL ?>assets/img/5star.png" /></a>
+                        <a href="https://wordpress.org/support/plugin/duplicator/reviews/?filter=5" target="vote-wp"><img id="dup-img-5stars" src="<?php echo DUPLICATOR_PLUGIN_URL ?>assets/img/5star.png" /></a>
                         <div  style=" font-size: 16px; font-weight: bold">
-							<a href="http://wordpress.org/extend/plugins/duplicator" target="_blank"><?php _e('Leave 5 Stars', 'duplicator') ?></a>
+							<a href="https://wordpress.org/support/plugin/duplicator/reviews/?filter=5" target="vote-wp"><?php _e('Leave 5 Stars', 'duplicator') ?></a>
 						</div>
                     </td>
                 </tr>
