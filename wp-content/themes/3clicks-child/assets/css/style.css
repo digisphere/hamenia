@@ -40,7 +40,7 @@
   text-indent: -9999px;
   overflow: hidden;
   height: 125px;
-  background-image: url("http://codenroll.pro/hamenia/wp-content/uploads/2016/05/hamenia-below-slider.jpg");
+  background-image: url("http://hamenia.codenroll.pro/wp-content/uploads/2016/05/hamenia-below-slider.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -135,7 +135,6 @@ body.home #g1-content .g1-background {
   margin-right: 0;
   width: 100%;
 }
-/* line 144, ../sass/style.scss */
 .angle-devider .fa {
   background-color: #002986;
   color: white;
@@ -146,15 +145,29 @@ body.home #g1-content .g1-background {
   line-height: 32px;
   color: white;
 }
-/* line 154, ../sass/style.scss */
 .angle-devider span:before, .angle-devider span:after {
   border-color: #002986;
 }
-/* line 157, ../sass/style.scss */
 .angle-devider span:before {
   right: 150%;
 }
-/* line 160, ../sass/style.scss */
 .angle-devider span:after {
   left: 150%;
+}
+
+.hp-logo img {
+	max-height: 160px;
+	width: auto !important;
+}
+
+@media only screen and (max-width: 1024px) {
+	#g1-preheader {
+		display: none !important;
+	}
+	#g1-header-waypoint {
+		border-top: 5px solid #002986;
+	}
+	#g1-header {
+		border-bottom: 5px solid #002986;
+	}
 }

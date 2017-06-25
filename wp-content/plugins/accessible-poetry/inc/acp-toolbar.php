@@ -241,7 +241,7 @@ function acp_get_toolbar() {
 	if( !isset($options['disable_author']) ) :
 
         echo '	<div class="acp-author">';
-        echo '		<a href="http://www.amitmoreno.com/" aria-label="Go to the accessibility plugin author website - this link will open in a new window" target="_blank">Accessibe Poetry by Amit Moreno</a>';
+        echo '		<a href="https://www.amitmoreno.com/" aria-label="Go to the accessibility plugin author website - this link will open in a new window" target="_blank">Accessibe Poetry by Amit Moreno</a>';
         echo '	</div>';
 
     // PRO ONLY

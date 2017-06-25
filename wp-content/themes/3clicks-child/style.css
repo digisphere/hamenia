@@ -63,16 +63,18 @@
 	
 }
 .loop-products .item .inner {
-	border: 2px solid #002986;
+	border: 1px solid #002986;
 	padding: 10px;
 	background: white;
 }
 .loop-products .item img {
-	max-width: 100%;
+	max-width: 80%;
 	height: auto;
 }
 .loop-products .item .inner h2 {
 	color: #002986;
+	font-size: 28px;
+	font-weight: 600;
 }
 .wpcf7-response-output.wpcf7-validation-errors {
 	display: none !important;

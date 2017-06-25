@@ -98,3 +98,6 @@ body.tax-product_cat.g1-secondary-narrow #primary {
 	width: 100%;
 	float: none;
 }
+.g1-grid > .g1-column {
+	float: right;
+}

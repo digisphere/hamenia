@@ -3,16 +3,16 @@ msgstr ""
 "Project-Id-Version: 3clicks v3.2.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-12-20 13:41+0100\n"
-"PO-Revision-Date: 2017-04-11 10:22+0300\n"
-"Last-Translator: Luke\n"
-"Language-Team: bringthepixel <bringthepixel@gmail.com>\n"
-"Language: en\n"
+"PO-Revision-Date: 2017-06-02 13:59+0000\n"
+"Last-Translator: עמית מורנו <amitmorenoltd@gmail.com>\n"
+"Language-Team: Hebrew\n"
+"Language: he-IL\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-KeywordsList: __;_e;_n;_x\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 1.8.6\n"
+"Plural-Forms: nplurals=2; plural=n != 1\n"
+"X-Generator: Loco - https://localise.biz/"
 
 # To add an additional character subset specific to your language, translate
 # this to 'greek', 'cyrillic' or 'vietnamese'.
@@ -30,7 +30,7 @@ msgid_plural "%1$s Comments"
 msgstr[0] ""
 msgstr[1] ""
 
-#: /home/btp/workspace/repos/3clicks/3clicks/comments.php:52
+#: home/btp/workspace/repos/3clicks/3clicks/comments.php:52
 msgid "Pages"
 msgstr ""
 
@@ -46,11 +46,16 @@ msgstr ""
 
 #: 3clicks/comments.php:90
 #, php-format
-msgid "When <a href=\"%s\">editing this page</a> make sure the \"Discussion\" box is visible: configure your screen options in the top-right section of the WordPress Admin. Sometimes this box can be hidden."
+msgid ""
+"When <a href=\"%s\">editing this page</a> make sure the \"Discussion\" box "
+"is visible: configure your screen options in the top-right section of the "
+"WordPress Admin. Sometimes this box can be hidden."
 msgstr ""
 
 #: 3clicks/comments.php:91
-msgid "Uncheck \"Allow comments\" and \"Allow trackbacks and pingbacks on this page\"."
+msgid ""
+"Uncheck \"Allow comments\" and \"Allow trackbacks and pingbacks on this "
+"page\"."
 msgstr ""
 
 #: 3clicks/comments.php:92
@@ -65,17 +70,15 @@ msgstr ""
 msgid "This page was not found"
 msgstr ""
 
-#: 3clicks/404.php:34
-msgid "Search Our Website"
-msgstr "‎חיפוש באתר"
-
 #: 3clicks/404.php:40
 msgid "Report a Problem"
 msgstr ""
 
 #: 3clicks/404.php:41
 #, php-format
-msgid "Please write some descriptive information about your problem, and email our <a href=\"mailto:%s\">webmaster</a>."
+msgid ""
+"Please write some descriptive information about your problem, and email our "
+"<a href=\"mailto:%s\">webmaster</a>."
 msgstr ""
 
 #: 3clicks/404.php:46
@@ -84,7 +87,9 @@ msgstr ""
 
 #: 3clicks/404.php:47
 #, php-format
-msgid "You can also <a href=\"%s\">go back to the homepage</a> and start browsing from there."
+msgid ""
+"You can also <a href=\"%s\">go back to the homepage</a> and start browsing "
+"from there."
 msgstr ""
 
 #: 3clicks/header.php:96
@@ -97,7 +102,9 @@ msgstr ""
 
 #: 3clicks/header.php:114
 #, php-format
-msgid "You should <a href=\"%s\">assign a menu to the Primary Navigation Theme Location</a>"
+msgid ""
+"You should <a href=\"%s\">assign a menu to the Primary Navigation Theme "
+"Location</a>"
 msgstr ""
 
 #: 3clicks/header.php:145
@@ -108,10 +115,6 @@ msgstr ""
 #, php-format
 msgid "Phrase: %s"
 msgstr ""
-
-#: 3clicks/search.php:25
-msgid "Search Results"
-msgstr "‎תוצאות חיפוש"
 
 #: 3clicks/search.php:40
 #, php-format
@@ -124,20 +127,14 @@ msgstr ""
 
 #: 3clicks/footer.php:83
 #, php-format
-msgid "You should <a href=\"%s\">assign a menu to the Footer Navigation Theme Location</a>"
+msgid ""
+"You should <a href=\"%s\">assign a menu to the Footer Navigation Theme "
+"Location</a>"
 msgstr ""
 
 #: 3clicks/footer.php:106
 msgid "Back to Top"
 msgstr ""
-
-#: 3clicks/searchform.php:20
-msgid "Search..."
-msgstr "‎חיפוש‫…‬"
-
-#: 3clicks/searchform.php:22
-msgid "Search"
-msgstr "‎חיפוש"
 
 #: 3clicks/g1_template_page_sitemap.php:58
 msgid "Site Feeds"
@@ -170,7 +167,7 @@ msgstr ""
 
 #: 3clicks/g1_template_page_sitemap.php:211
 msgid "Edit"
-msgstr ""
+msgstr "עריכה"
 
 #: 3clicks/lib/theme-functions.php:494 3clicks/lib/theme-options.php:1349
 msgid "Primary Navigation"
@@ -362,7 +359,8 @@ msgstr ""
 
 #: 3clicks/lib/theme-front.php:667
 #, php-format
-msgid "This %s is password protected. To view it please enter your password below:"
+msgid ""
+"This %s is password protected. To view it please enter your password below:"
 msgstr ""
 
 #: 3clicks/lib/theme-front.php:2104
@@ -372,7 +370,7 @@ msgstr ""
 
 #: 3clicks/lib/theme-front.php:2107 3clicks/lib/theme-front.php:2130
 msgid "(Edit)"
-msgstr ""
+msgstr "(עריכה)"
 
 #: 3clicks/lib/theme-front.php:2112
 msgid "Your comment is awaiting moderation."
@@ -395,7 +393,9 @@ msgid "Prev"
 msgstr ""
 
 #: 3clicks/lib/theme-features.php:41
-msgid "Audio post format can have an additional poster image. You can set it using the Featured Image"
+msgid ""
+"Audio post format can have an additional poster image. You can set it using "
+"the Featured Image"
 msgstr ""
 
 #: 3clicks/lib/theme-features.php:42
@@ -522,7 +522,8 @@ msgid "%s Attachment"
 msgstr ""
 
 #: 3clicks/lib/theme-options.php:88
-msgid "Whether a background image is fixed or scrolls with the rest of the page."
+msgid ""
+"Whether a background image is fixed or scrolls with the rest of the page."
 msgstr ""
 
 #: 3clicks/lib/theme-options.php:90
@@ -582,7 +583,9 @@ msgid "Enable the HelpMode to get some useful tips throughout the site."
 msgstr ""
 
 #: 3clicks/lib/theme-options.php:179
-msgid "The HelpMode is visible only to users who have been assigned the administrator role, so regular site visitors don't see it."
+msgid ""
+"The HelpMode is visible only to users who have been assigned the "
+"administrator role, so regular site visitors don't see it."
 msgstr ""
 
 #: 3clicks/lib/theme-options.php:192
@@ -603,7 +606,9 @@ msgstr ""
 
 #: 3clicks/lib/theme-options.php:215
 #, php-format
-msgid "Leave it blank to display the site title from <a href=\"%s\">WP General Settings</a> instead."
+msgid ""
+"Leave it blank to display the site title from <a href=\"%s\">WP General "
+"Settings</a> instead."
 msgstr ""
 
 #: 3clicks/lib/theme-options.php:221
@@ -742,12 +747,10 @@ msgstr ""
 
 #: 3clicks/lib/theme-options.php:540
 #, php-format
-msgid "You can edit social icons from the <a href=\"%s\">G1 Social Icons Plugin Settings</a>"
+msgid ""
+"You can edit social icons from the <a href=\"%s\">G1 Social Icons Plugin "
+"Settings</a>"
 msgstr ""
-
-#: 3clicks/lib/theme-options.php:553 3clicks/lib/theme-options.php:765
-msgid "Search Form"
-msgstr "‎טופס חיפוש"
 
 #: 3clicks/lib/theme-options.php:569
 msgid "Sticky Position"
@@ -895,7 +898,9 @@ msgid "Meta Text"
 msgstr ""
 
 #: 3clicks/lib/theme-options.php:1246
-msgid "Customize the typography that is intended to use in meta text (post bylines, comment dates, or similar meta information)."
+msgid ""
+"Customize the typography that is intended to use in meta text (post bylines, "
+"comment dates, or similar meta information)."
 msgstr ""
 
 #: 3clicks/lib/theme-options.php:1289
@@ -903,7 +908,9 @@ msgid "Important Text"
 msgstr ""
 
 #: 3clicks/lib/theme-options.php:1292
-msgid "Customize the typography that is intended to use in bigger text (headings with small exceptions, large buttons, etc)."
+msgid ""
+"Customize the typography that is intended to use in bigger text (headings "
+"with small exceptions, large buttons, etc)."
 msgstr ""
 
 #: 3clicks/lib/theme-options.php:1401
@@ -987,7 +994,9 @@ msgid "Custom Sidebars"
 msgstr ""
 
 #: 3clicks/lib/theme-options.php:1660
-msgid "Sidebar name can only consist of: lowercase letters, digits, underscores and hyphens"
+msgid ""
+"Sidebar name can only consist of: lowercase letters, digits, underscores and "
+"hyphens"
 msgstr ""
 
 #: 3clicks/lib/theme-options.php:1669
@@ -1061,7 +1070,9 @@ msgid "show"
 msgstr ""
 
 #: 3clicks/lib/g1-gmap/g1-gmap.php:118
-msgid "Here you can decide whether a map should be displayed in the precontent theme area (right after the header and just before the content)."
+msgid ""
+"Here you can decide whether a map should be displayed in the precontent "
+"theme area (right after the header and just before the content)."
 msgstr ""
 
 #: 3clicks/lib/g1-gmap/g1-gmap.php:134
@@ -1165,7 +1176,8 @@ msgid "To center the map on a specific point (eg. 40.714353 for New York, USA)"
 msgstr ""
 
 #: 3clicks/lib/g1-gmap/g1-gmap.php:309
-msgid "To center the map on a specific point (eg. -74.005973 for New York, USA)"
+msgid ""
+"To center the map on a specific point (eg. -74.005973 for New York, USA)"
 msgstr ""
 
 #: 3clicks/lib/g1-gmap/g1-gmap.php:317
@@ -1203,7 +1215,9 @@ msgid "MailChimp"
 msgstr ""
 
 #: 3clicks/lib/g1-mailchimp/g1-mailchimp.php:144
-msgid "The theme is integrated with the MailChimp service so you can easily conduct your mailing campaigns."
+msgid ""
+"The theme is integrated with the MailChimp service so you can easily conduct "
+"your mailing campaigns."
 msgstr ""
 
 #: 3clicks/lib/g1-mailchimp/g1-mailchimp.php:151
@@ -1211,7 +1225,9 @@ msgid "API Key"
 msgstr ""
 
 #: 3clicks/lib/g1-mailchimp/g1-mailchimp.php:152
-msgid "You can find the key on your MailChimp Account, in the section API Keys & Authorized Apps"
+msgid ""
+"You can find the key on your MailChimp Account, in the section API Keys & "
+"Authorized Apps"
 msgstr ""
 
 #: 3clicks/lib/g1-mailchimp/g1-mailchimp.php:158
@@ -1219,7 +1235,9 @@ msgid "Debug mode"
 msgstr ""
 
 #: 3clicks/lib/g1-mailchimp/g1-mailchimp.php:159
-msgid "If subscription process doesn't work, enable this mode to see information about potential problems."
+msgid ""
+"If subscription process doesn't work, enable this mode to see information "
+"about potential problems."
 msgstr ""
 
 #: 3clicks/lib/g1-mailchimp/g1-mailchimp.php:161
@@ -1239,7 +1257,9 @@ msgid "Text to show above subscription form"
 msgstr ""
 
 #: 3clicks/lib/g1-mailchimp/g1-mailchimp.php:254
-msgid "To fetch the list you need to enter your MailChimp Api Key in the theme options panel."
+msgid ""
+"To fetch the list you need to enter your MailChimp Api Key in the theme "
+"options panel."
 msgstr ""
 
 #: 3clicks/lib/g1-mailchimp/g1-mailchimp.php:258
@@ -1251,7 +1271,9 @@ msgid "cURL not enabled."
 msgstr ""
 
 #: 3clicks/lib/g1-mailchimp/g1-mailchimp.php:278
-msgid "cURL module is not enabled on your server. Please contact your hosting provider and ask about enabling cURL for your account."
+msgid ""
+"cURL module is not enabled on your server. Please contact your hosting "
+"provider and ask about enabling cURL for your account."
 msgstr ""
 
 #: 3clicks/lib/g1-mailchimp/g1-mailchimp.php:301
@@ -1259,7 +1281,9 @@ msgid "You need to set your mail address"
 msgstr ""
 
 #: 3clicks/lib/g1-mailchimp/g1-mailchimp.php:302
-msgid "You have not set mailing list. Please check your Mailchimp widget (save it once again) and clear page cache (if used)."
+msgid ""
+"You have not set mailing list. Please check your Mailchimp widget (save it "
+"once again) and clear page cache (if used)."
 msgstr ""
 
 #: 3clicks/lib/g1-mailchimp/g1-mailchimp.php:303
@@ -1278,12 +1302,10 @@ msgstr ""
 msgid "G1 MailChimp Newsletter"
 msgstr ""
 
-#: 3clicks/lib/g1-pages/lib/functions.php:109
-msgid "Home Page"
-msgstr "‎דף הבית"
-
 #: 3clicks/lib/g1-pages/lib/functions.php:110
-msgid "If you want to set the Blog Page as the Home Page, leave this option blank or select the Blog Page."
+msgid ""
+"If you want to set the Blog Page as the Home Page, leave this option blank "
+"or select the Blog Page."
 msgstr ""
 
 #: 3clicks/lib/g1-pages/lib/functions.php:111
@@ -1449,7 +1471,8 @@ msgstr ""
 
 #: 3clicks/lib/g1-shortcodes/basic.php:44
 #: 3clicks/lib/g1-shortcodes/basic.php:543
-msgid "Add a second line by wrapping part of the label with a &lt;small&gt; tag"
+msgid ""
+"Add a second line by wrapping part of the label with a &lt;small&gt; tag"
 msgstr ""
 
 #: 3clicks/lib/g1-shortcodes/basic.php:65
@@ -1563,7 +1586,9 @@ msgid "State"
 msgstr ""
 
 #: 3clicks/lib/g1-maintenance/g1-maintenance.php:81
-msgid "Logged in administrator gets full access to the site, while regular visitors will be redirected to the chosen page."
+msgid ""
+"Logged in administrator gets full access to the site, while regular visitors "
+"will be redirected to the chosen page."
 msgstr ""
 
 #: 3clicks/lib/g1-maintenance/g1-maintenance.php:93
@@ -1624,11 +1649,17 @@ msgid "How to use relation tags?"
 msgstr ""
 
 #: 3clicks/lib/g1-relations/lib/functions.php:228
-msgid "The relation tags are not displayed anywhere - use them to relate different content (posts, pages, etc.), so that you can benefit from special shortcodes ([related_posts], [related_pages], etc.) or widgets ."
+msgid ""
+"The relation tags are not displayed anywhere - use them to relate different "
+"content (posts, pages, etc.), so that you can benefit from special "
+"shortcodes ([related_posts], [related_pages], etc.) or widgets ."
 msgstr ""
 
 #: 3clicks/lib/g1-relations/lib/functions.php:229
-msgid "It is strongly advised to prepend every relation tag with the <strong>r-</strong> prefix, to clearly differentiate these tags, thus keep their slugs unique."
+msgid ""
+"It is strongly advised to prepend every relation tag with the <strong>r-"
+"</strong> prefix, to clearly differentiate these tags, thus keep their slugs "
+"unique."
 msgstr ""
 
 #: 3clicks/lib/g1-relations/lib/functions.php:230
@@ -1644,7 +1675,9 @@ msgid "Assign the r-home tag to some blog posts."
 msgstr ""
 
 #: 3clicks/lib/g1-relations/lib/functions.php:234
-msgid "Insert the [related_posts] shortcode into the content editor, when editing the home page."
+msgid ""
+"Insert the [related_posts] shortcode into the content editor, when editing "
+"the home page."
 msgstr ""
 
 #: 3clicks/lib/g1-relations/lib/functions.php:235
@@ -1652,7 +1685,9 @@ msgid "Save changes and all related posts will be on your home page."
 msgstr ""
 
 #: 3clicks/lib/g1-relations/lib/functions.php:237
-msgid "The relation tags are built using custom taxonomy functionality, so they are separated from the standard WordPress tags."
+msgid ""
+"The relation tags are built using custom taxonomy functionality, so they are "
+"separated from the standard WordPress tags."
 msgstr ""
 
 #: 3clicks/lib/g1-relations/lib/functions.php:325
@@ -1745,7 +1780,9 @@ msgid "ddffsfdfsdfsdd"
 msgstr ""
 
 #: 3clicks/lib/g1-simple-sliders/lib/functions.php:91
-msgid "Set up the default configuration for all sliders added using \"Single Page Options > Media Box\" setting."
+msgid ""
+"Set up the default configuration for all sliders added using \"Single Page "
+"Options > Media Box\" setting."
 msgstr ""
 
 #: 3clicks/lib/g1-simple-sliders/lib/functions.php:108
@@ -1798,7 +1835,9 @@ msgid "Slider"
 msgstr ""
 
 #: 3clicks/lib/g1-simple-sliders/lib/functions.php:223
-msgid "The <strong>slider</strong> displays only image attachments. It tries to open an attachment alternative link (if provided) in a lightbox."
+msgid ""
+"The <strong>slider</strong> displays only image attachments. It tries to "
+"open an attachment alternative link (if provided) in a lightbox."
 msgstr ""
 
 #: 3clicks/lib/g1-simple-sliders/lib/functions.php:370
@@ -1924,7 +1963,9 @@ msgid "The image height in pixels (optional)"
 msgstr ""
 
 #: 3clicks/lib/g1-simple-sliders/lib/functions.php:863
-msgid "If you leave this value empty, the height will be computed proportionally to the width"
+msgid ""
+"If you leave this value empty, the height will be computed proportionally to "
+"the width"
 msgstr ""
 
 #: 3clicks/lib/g1-simple-sliders/lib/functions.php:888
@@ -2041,7 +2082,9 @@ msgid "G1 Contact Form"
 msgstr ""
 
 #: 3clicks/lib/g1-sliders/functions.php:66
-msgid "Here you can choose a slider that will be displayed in the precontent theme area (right after the header and just before the content)."
+msgid ""
+"Here you can choose a slider that will be displayed in the precontent theme "
+"area (right after the header and just before the content)."
 msgstr ""
 
 #: 3clicks/lib/g1-sliders/functions.php:67
@@ -2053,15 +2096,21 @@ msgid "Do you want a slider here?"
 msgstr ""
 
 #: 3clicks/lib/g1-sliders/functions.php:87
-msgid "Create a slider ( check the WordPress Admin Menu - there should be some slider types to choose)."
+msgid ""
+"Create a slider ( check the WordPress Admin Menu - there should be some "
+"slider types to choose)."
 msgstr ""
 
 #: 3clicks/lib/g1-sliders/functions.php:88
-msgid "When editing a single entry scroll down to the \"Single Page Elements\" meta box, and choose your previously created slider from the \"Slider\" dropdown."
+msgid ""
+"When editing a single entry scroll down to the \"Single Page Elements\" meta "
+"box, and choose your previously created slider from the \"Slider\" dropdown."
 msgstr ""
 
 #: 3clicks/lib/g1-sliders/functions.php:89
-msgid "When editing a single category or a tag choose your previously created slider from the \"Slider\" dropdown."
+msgid ""
+"When editing a single category or a tag choose your previously created "
+"slider from the \"Slider\" dropdown."
 msgstr ""
 
 #: 3clicks/lib/g1-sliders/functions.php:90
@@ -2233,7 +2282,9 @@ msgstr ""
 
 #: 3clicks/lib/g1-twitter/g1-twitter.php:68
 #: 3clicks/lib/g1-twitter/g1-twitter.php:76
-msgid "Global value, used as a default value for shortcodes/widgets and prefooter toolbar"
+msgid ""
+"Global value, used as a default value for shortcodes/widgets and prefooter "
+"toolbar"
 msgstr ""
 
 #: 3clicks/lib/g1-twitter/g1-twitter.php:69
@@ -2253,7 +2304,9 @@ msgid "How long tweets will be fetched from cache, not from Twitter site"
 msgstr ""
 
 #: 3clicks/lib/g1-twitter/g1-twitter.php:86
-msgid "in seconds, empty value for default. 0 value means no cache at all (use it only if you use cache for a whole site)"
+msgid ""
+"in seconds, empty value for default. 0 value means no cache at all (use it "
+"only if you use cache for a whole site)"
 msgstr ""
 
 #: 3clicks/lib/g1-twitter/g1-twitter.php:97
@@ -2265,7 +2318,10 @@ msgid "oAuth Authentication"
 msgstr ""
 
 #: 3clicks/lib/g1-twitter/g1-twitter.php:108
-msgid "Most of this configuration can be found on the application overview page: <a target=\"_blank\" href=\"http://dev.twitter.com/apps\">http://dev.twitter.com/apps</a>."
+msgid ""
+"Most of this configuration can be found on the application overview page: <a "
+"target=\"_blank\" href=\"http://dev.twitter.com/apps\">http://dev.twitter."
+"com/apps</a>."
 msgstr ""
 
 #: 3clicks/lib/g1-twitter/g1-twitter.php:109
@@ -2281,11 +2337,17 @@ msgid "According to Twitter doc:"
 msgstr ""
 
 #: 3clicks/lib/g1-twitter/g1-twitter.php:114
-msgid "When using OAuth to authenticate requests with the API, the rate limit applied is specific to that user_token. This means, every user who authorizes your application to act on their behalf, has their own bucket of API requests for you to use."
+msgid ""
+"When using OAuth to authenticate requests with the API, the rate limit "
+"applied is specific to that user_token. This means, every user who "
+"authorizes your application to act on their behalf, has their own bucket of "
+"API requests for you to use."
 msgstr ""
 
 #: 3clicks/lib/g1-twitter/g1-twitter.php:117
-msgid "Read more about <a target=\"_blank\" href=\"https://dev.twitter.com/docs/rate-limiting/1.1\">REST API Rate Limiting in v1.1</a>."
+msgid ""
+"Read more about <a target=\"_blank\" href=\"https://dev.twitter."
+"com/docs/rate-limiting/1.1\">REST API Rate Limiting in v1.1</a>."
 msgstr ""
 
 #: 3clicks/lib/g1-twitter/g1-twitter.php:124
@@ -2314,11 +2376,15 @@ msgid "Follow @%s"
 msgstr ""
 
 #: 3clicks/lib/g1-twitter/g1-twitter.php:403
-msgid "cURL module is not enabled on your server but is required by Twitter component."
+msgid ""
+"cURL module is not enabled on your server but is required by Twitter "
+"component."
 msgstr ""
 
 #: 3clicks/lib/g1-twitter/g1-twitter.php:404
-msgid "Please contact your hosting provider and ask about enabling cURL for your account."
+msgid ""
+"Please contact your hosting provider and ask about enabling cURL for your "
+"account."
 msgstr ""
 
 #: 3clicks/lib/g1-twitter/g1-twitter.php:425
@@ -2401,11 +2467,15 @@ msgid "Import Skin"
 msgstr ""
 
 #: 3clicks/g1-framework/options/defaults.php:747
-msgid "Input your backup file below and hit Import to restore your sites options from a backup."
+msgid ""
+"Input your backup file below and hit Import to restore your sites options "
+"from a backup."
 msgstr ""
 
 #: 3clicks/g1-framework/options/defaults.php:757
-msgid "Input the URL to another sites options set and hit Import to load the options from that site."
+msgid ""
+"Input the URL to another sites options set and hit Import to load the "
+"options from that site."
 msgstr ""
 
 #: 3clicks/g1-framework/options/defaults.php:764
@@ -2413,7 +2483,9 @@ msgid "Import"
 msgstr ""
 
 #: 3clicks/g1-framework/options/defaults.php:764
-msgid "WARNING! This will overwrite any existing options, please proceed with caution!"
+msgid ""
+"WARNING! This will overwrite any existing options, please proceed with "
+"caution!"
 msgstr ""
 
 #: 3clicks/g1-framework/options/defaults.php:767
@@ -2421,7 +2493,10 @@ msgid "Export Options"
 msgstr ""
 
 #: 3clicks/g1-framework/options/defaults.php:769
-msgid "Here you can copy/download your current option settings. Keep this safe as you can use it as a backup should anything go wrong, or you can use it to restore your settings on this site (or any other site)."
+msgid ""
+"Here you can copy/download your current option settings. Keep this safe as "
+"you can use it as a backup should anything go wrong, or you can use it to "
+"restore your settings on this site (or any other site)."
 msgstr ""
 
 #: 3clicks/g1-framework/options/defaults.php:772
@@ -2489,7 +2564,9 @@ msgstr ""
 
 #: 3clicks/g1-framework/options/fields/google_webfonts/field_google_webfonts.php:27
 #, php-format
-msgid "The fonts provided below are free to use custom fonts from the <a href=\"%s\" target=\"_blank\">Google Web Fonts directory</a>"
+msgid ""
+"The fonts provided below are free to use custom fonts from the <a "
+"href=\"%s\" target=\"_blank\">Google Web Fonts directory</a>"
 msgstr ""
 
 #: 3clicks/g1-framework/options/fields/upload/field_upload.php:30
@@ -2501,7 +2578,8 @@ msgid "Remove Upload"
 msgstr ""
 
 #: 3clicks/g1-framework/options/validation/no_html/validation_no_html.php:14
-msgid "You must not enter any HTML in this field, all HTML tags have been removed."
+msgid ""
+"You must not enter any HTML in this field, all HTML tags have been removed."
 msgstr ""
 
 #: 3clicks/g1-framework/options/validation/url/validation_url.php:14
@@ -2517,11 +2595,14 @@ msgid "You must provide a valid email for this option."
 msgstr ""
 
 #: 3clicks/g1-framework/options/validation/no_special_chars/validation_no_special_chars.php:14
-msgid "You must not enter any special characters in this field, all special characters have been removed."
+msgid ""
+"You must not enter any special characters in this field, all special "
+"characters have been removed."
 msgstr ""
 
 #: 3clicks/g1-framework/options/validation/comma_numeric/validation_comma_numeric.php:14
-msgid "You must provide a comma seperated list of numerical values for this option."
+msgid ""
+"You must provide a comma seperated list of numerical values for this option."
 msgstr ""
 
 #: 3clicks/g1-framework/options/validation/numeric/validation_numeric.php:14
@@ -2535,10 +2616,6 @@ msgstr ""
 #: 3clicks/g1-framework/lib/shortcode-generator.php:382
 msgid "Insert"
 msgstr ""
-
-#: 3clicks/g1-framework/lib/template-tags.php:121
-msgid "Home"
-msgstr "‎ראשי"
 
 #: 3clicks/g1-framework/lib/template-tags.php:248
 #, php-format
@@ -2589,10 +2666,6 @@ msgstr ""
 msgid "You should <a href=\"%s\">add some widgets</a> to it."
 msgstr ""
 
-#: 3clicks/g1-framework/lib/core-tools.php:1346
-msgid "by"
-msgstr ""
-
 #: 3clicks/g1-framework/lib/core-tools.php:1362
 msgid "0 <span>Comments</span>"
 msgstr ""
@@ -2616,10 +2689,6 @@ msgstr ""
 #: 3clicks/g1-framework/lib/core-tools.php:1452
 msgid "Tagged with:"
 msgstr ""
-
-#: 3clicks/g1-framework/lib/core-tools.php:1497
-msgid "More"
-msgstr "‎קרא עוד"
 
 #: 3clicks/g1-framework/lib/core-tools.php:1555
 #: 3clicks/g1-framework/lib/core-tools.php:1556
@@ -2723,7 +2792,9 @@ msgid "A few points about this page:"
 msgstr ""
 
 #: 3clicks/g1-framework/lib/features.php:510
-msgid "A page template will be ignored. Instead one of the below templates will be used."
+msgid ""
+"A page template will be ignored. Instead one of the below templates will be "
+"used."
 msgstr ""
 
 #: 3clicks/g1-framework/lib/features.php:511
@@ -2731,7 +2802,9 @@ msgid "Any content will be ignored."
 msgstr ""
 
 #: 3clicks/g1-framework/lib/features.php:512
-msgid "All other elements ( like title, sidebar, background, etc. ) should work fine."
+msgid ""
+"All other elements ( like title, sidebar, background, etc. ) should work "
+"fine."
 msgstr ""
 
 #: 3clicks/g1-framework/lib/features.php:758
@@ -2850,12 +2923,16 @@ msgid "Set up the dimensions of the images on the site."
 msgstr ""
 
 #: 3clicks/g1-framework/lib/theme.php:110
-msgid "Keep in mind, that only newly uploaded images will take into account these changes."
+msgid ""
+"Keep in mind, that only newly uploaded images will take into account these "
+"changes."
 msgstr ""
 
 #: 3clicks/g1-framework/lib/theme.php:111
 #, php-format
-msgid "Older images can be rescaled with the <a href=\"%s\">Regenerate Thumbnails Plugin</a>"
+msgid ""
+"Older images can be rescaled with the <a href=\"%s\">Regenerate Thumbnails "
+"Plugin</a>"
 msgstr ""
 
 #: 3clicks/g1-framework/lib/form-controls.php:24
@@ -3001,7 +3078,9 @@ msgstr ""
 
 #: 3clicks/g1-framework/lib/class-tgm-plugin-activation.php:1343
 #, php-format
-msgid "No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the Dashboard\">Return to the Dashboard</a>"
+msgid ""
+"No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the "
+"Dashboard\">Return to the Dashboard</a>"
 msgstr ""
 
 #: 3clicks/g1-framework/lib/class-tgm-plugin-activation.php:1359
@@ -3058,7 +3137,9 @@ msgid "Plugin activation failed."
 msgstr ""
 
 #: 3clicks/g1-framework/lib/class-tgm-plugin-activation.php:2017
-msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
 msgstr ""
 
 #: 3clicks/g1-framework/lib/class-tgm-plugin-activation.php:2018
@@ -3086,7 +3167,9 @@ msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
 msgstr ""
 
 #: 3clicks/g1-framework/lib/class-tgm-plugin-activation.php:2024
-msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
 msgstr ""
 
 #: 3clicks/g1-framework/lib/class-tgm-plugin-activation.php:2025
@@ -3172,3 +3255,39 @@ msgstr ""
 #: 3clicks/template-parts/g1_single_nav.php:48
 msgid "<strong class=\"g1-meta\">Next:</strong>"
 msgstr ""
+
+#: 3clicks/g1-framework/lib/core-tools.php:1346
+msgid "by"
+msgstr "על ידי"
+
+#: 3clicks/404.php:34
+msgid "Search Our Website"
+msgstr "‎חיפוש באתר"
+
+#: 3clicks/search.php:25
+msgid "Search Results"
+msgstr "‎תוצאות חיפוש"
+
+#: 3clicks/searchform.php:20
+msgid "Search..."
+msgstr "‎חיפוש‫…‬"
+
+#: 3clicks/searchform.php:22
+msgid "Search"
+msgstr "‎חיפוש"
+
+#: 3clicks/lib/theme-options.php:553 3clicks/lib/theme-options.php:765
+msgid "Search Form"
+msgstr "‎טופס חיפוש"
+
+#: 3clicks/lib/g1-pages/lib/functions.php:109
+msgid "Home Page"
+msgstr "‎דף הבית"
+
+#: 3clicks/g1-framework/lib/template-tags.php:121
+msgid "Home"
+msgstr "‎ראשי"
+
+#: 3clicks/g1-framework/lib/core-tools.php:1497
+msgid "More"
+msgstr "‎קרא עוד"
